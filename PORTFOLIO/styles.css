@@ -1,0 +1,148 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #e8e1d9;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.intro {
+  text-align: center;
+}
+
+.intro h1 {
+  margin-bottom: 0;
+}
+
+.about {
+  background-color: #dad2ca;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.profile-image {
+  border-radius: 25%;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.bio {
+  max-width: 600px;
+}
+
+.skills {
+  background-color: #6c5b7b;
+  padding: 20px;
+  color: white;
+}
+
+.skill-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-list li {
+  margin-bottom: 10px;
+}
+
+.projects {
+  background-color: #fdfaf3;
+  padding: 20px;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 45%;
+  margin: 20px 2.5%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.project-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.project-link {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.resume {
+  background-color: #e8e1d9;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact {
+  background-color: #dad2ca;
+  padding: 20px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact input, .contact textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e90ff;
+  color: white;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer a {
+  color: #1e90ff;
+  text-decoration: none;
+}
